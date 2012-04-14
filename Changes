@@ -1,0 +1,18 @@
+Fri Jul 17 08:26:14 PST 2006 	Trevor Hall <wazzuteke@cpan.org>
+
+	Version 0.90.1
+		1. Initial release to CPAN
+	Version 0.91
+		Fixed for 5.9+
+	Version 0.93
+		Don't segfault on pos() magic.
+
+Fri Feb 10 21:48:38 PST
+	Version 0.94
+		Don't infinite recurse on @ magic..
+
+Sun Feb 12 17:43:44 PST
+    Version 0.96
+        Remove debugging code
+
+   
