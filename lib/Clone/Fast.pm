@@ -2,7 +2,7 @@ package Clone::Fast;
 
 use strict;
 
-our $VERSION = '0.96';
+our $VERSION = '0.97';
 
 # Configuration variables
 our $BREAK_REFS      = 0;
