@@ -18,3 +18,4 @@ Sun Feb 12 17:43:44 PST
 Mon Abr 16 22:35:00 CET
      Version 0.97
      - apply patch from RT #65485 to fix builds for perl 5.12
+     - apply patch from RT #65485 POD Spelling error

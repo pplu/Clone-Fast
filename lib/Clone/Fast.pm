@@ -307,7 +307,7 @@ contains a ciruclar reference or not.
 This module works great for blessed references, how ever the paradigm changes when trying to clone
 inside out objects (or Conway's 'flywaight' style of object creation).  Clone does not, nor will not,
 clone the stash of an object's class; this would break more than anything.  Given this, HOOKS have
-been provided in order to programatically handle wierd stuff like this.  I am hoping applications,
+been provided in order to programatically handle weird stuff like this.  I am hoping applications,
 developers and all of the like whom are using inside out objects will know what the heck it is I'm
 talking about here.  There is a lot more information about this in the PROGRAMATIC HOOKS section.
 
