@@ -130,7 +130,11 @@ static sv_clone_t sv_clone_table[] = {
 #endif
 	(sv_clone_t)clone_sv,   // SVt_IV
 	(sv_clone_t)clone_sv,   // SVt_NV
-	(sv_clone_t)clone_rv,   // SVt_RV
+#if PERL_VERSION < 11 
+	(sv_clone_t)clone_rv,	// SVt_RV
+#else
+	(sv_clone_t)clone_sv,	// SVt_IV
+#endif
 	(sv_clone_t)clone_sv,   // SVt_PV
 	(sv_clone_t)clone_sv,   // SVt_PVIV
 	(sv_clone_t)clone_sv,   // SVt_PVNV
